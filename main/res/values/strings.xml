@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Fit Application</string>
+    <string name="TechName">Tech Name</string>
+    <string name="tech">Performing the exercise</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="408dp"
+        android:layout_height="277dp"
+        android:layout_marginBottom="486dp"
+
+        app:cardBackgroundColor="#E8E8CC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/tech_repetitions"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="190dp"
+            android:text="Repetitions" />
+
+        <TextView
+            android:id="@+id/tech_tech"
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="50dp"
+            android:text="Technique"
+            android:textAlignment="viewStart"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tech_name"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Exercise Name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tech_method"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="220dp"
+            android:text="Method" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="220dp"
+            android:background="@android:color/black"
+            android:text="Back"
+            android:textColor="@android:color/white" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
